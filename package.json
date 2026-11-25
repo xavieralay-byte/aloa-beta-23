@@ -1,0 +1,9 @@
+{
+  "name": "aloa-beta-2-3-openai",
+  "version": "2.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js"},
+  "dependencies": {"dotenv": "^16.4.7", "express": "^4.21.2", "openai": "^6.15.0"},
+  "engines": {"node": ">=20"}
+}
